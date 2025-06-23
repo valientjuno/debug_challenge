@@ -3,7 +3,7 @@ let input = document.querySelector(".name");
 let display = document.querySelector(".display");
 
 // This code should be working
-input.addEventListener("input", function ());
+input.addEventListener("input", function () {
 //   const name = input.value;
 //   display.textContent = name;
 // });
@@ -11,7 +11,4 @@ input.addEventListener("input", function ());
 // missing function?
 
 // you should see 5 in the output of your console
-function addNums(num1=2, num2=3){
-    return num1 + numb2;
-}
-console.log(addNums(2, 3));
+console.log(simpleMath(2, 3));
