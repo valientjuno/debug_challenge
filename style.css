@@ -36,7 +36,6 @@ body {
   }
 }
 
-/* half of this class tag is in the html file already */
 .text {
   animation: rainbow 5s linear infinite;
   -webkit-background-clip: text;
