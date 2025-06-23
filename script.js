@@ -11,4 +11,7 @@ input.addEventListener("input", function()){};
 // missing function?
 
 // you should see 5 in the output of your console
-console.log(simpleMath(2, 3));
+const addNums = (num1 = 2, num2 = 3) =>{
+    console.log(num1+num2);
+}
+addNums (2, 3);
