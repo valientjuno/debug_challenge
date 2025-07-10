@@ -3,10 +3,11 @@ let input = document.querySelector(".name");
 let display = document.querySelector(".display");
 
 // This code should be working
-// input.addEventListener("input", function () {
-//   const name = input.value;
-//   display.textContent = name;
-// });
+input.addEventListener("input", function () {
+  const name = input.value;
+  display.textContent = name;
+  console.log(name);
+});
 
 // missing function?
 
