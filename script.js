@@ -1,6 +1,8 @@
 // make sure these match the HTML element names for the ID then class.
-let input = document.querySelector("#NAME");
-let display = document.querySelector(".displaymycode");
+let input = document.querySelector(".name");
+let display = document.querySelector(".display");
+
+console.log(input, display)
 
 // This code should be working
 input.addEventListener("input", function () {
